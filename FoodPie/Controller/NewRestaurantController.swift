@@ -197,7 +197,7 @@ UINavigationControllerDelegate, UIImagePickerControllerDelegate {
         let iamgeAsset = CKAsset(fileURL: imageFileURL)
         record.setValue(iamgeAsset, forKey: "image")
 
-        let publicDatabase = CKContainer(identifier: "").publicCloudDatabase
+        let publicDatabase = CKContainer(identifier: "iCloud.com.honey.FoodPieCloudDB").publicCloudDatabase
         publicDatabase.save(record, completionHandler: {(record, error) -> Void in
             if let error = error {
                 print("upload data error: \(error)")

@@ -679,46 +679,46 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hro-z1-JUa">
-                                <rect key="frame" x="85" y="207.66666666666663" width="244" height="481"/>
+                                <rect key="frame" x="82" y="207.66666666666663" width="250" height="481"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="love" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gtc-iA-KEb">
-                                        <rect key="frame" x="0.0" y="0.0" width="202" height="82"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="205" height="82"/>
                                         <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="50"/>
                                         <state key="normal" title="LOVE" image="love"/>
                                         <connections>
-                                            <segue destination="zBh-x2-XRa" kind="unwind" identifier="love" unwindAction="rateRestaurantWithSegue:" id="2So-XT-a77"/>
+                                            <segue destination="zBh-x2-XRa" kind="unwind" identifier="love" unwindAction="rateRestaurantWithSegue:" id="XEl-9z-L9x"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="cool" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RXu-si-0GR">
-                                        <rect key="frame" x="0.0" y="92.000000000000028" width="207" height="83"/>
+                                        <rect key="frame" x="0.0" y="92.000000000000028" width="218" height="83"/>
                                         <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="50"/>
                                         <state key="normal" title="COOL" image="cool"/>
                                         <connections>
-                                            <segue destination="zBh-x2-XRa" kind="unwind" identifier="cool" unwindAction="rateRestaurantWithSegue:" id="5mN-VC-N6B"/>
+                                            <segue destination="zBh-x2-XRa" kind="unwind" identifier="cool" unwindAction="rateRestaurantWithSegue:" id="mvW-Wg-F7g"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="angry" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zTV-2g-xks">
-                                        <rect key="frame" x="0.0" y="185.00000000000003" width="243" height="85.999999999999972"/>
+                                        <rect key="frame" x="0.0" y="185.00000000000003" width="244" height="85.999999999999972"/>
                                         <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="50"/>
                                         <state key="normal" title="HAPPY" image="happy"/>
                                         <connections>
-                                            <segue destination="zBh-x2-XRa" kind="unwind" identifier="angry" unwindAction="rateRestaurantWithSegue:" id="AbW-sk-x3f"/>
+                                            <segue destination="zBh-x2-XRa" kind="unwind" identifier="happy" unwindAction="rateRestaurantWithSegue:" id="rMG-sh-9CC"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="happy" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qiO-mn-Y2H">
-                                        <rect key="frame" x="0.0" y="281" width="177" height="87"/>
+                                        <rect key="frame" x="0.0" y="281" width="178" height="87"/>
                                         <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="50"/>
                                         <state key="normal" title="SAD" image="sad"/>
                                         <connections>
-                                            <segue destination="zBh-x2-XRa" kind="unwind" identifier="happy" unwindAction="rateRestaurantWithSegue:" id="HHN-UA-K7Z"/>
+                                            <segue destination="zBh-x2-XRa" kind="unwind" identifier="sad" unwindAction="rateRestaurantWithSegue:" id="GM0-eD-Bnx"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="sad" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yJE-nh-BkF">
-                                        <rect key="frame" x="0.0" y="378" width="244" height="103"/>
+                                        <rect key="frame" x="0.0" y="378" width="250" height="103"/>
                                         <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="50"/>
                                         <state key="normal" title="ANGRY" image="angry"/>
                                         <connections>
-                                            <segue destination="zBh-x2-XRa" kind="unwind" identifier="sad" unwindAction="rateRestaurantWithSegue:" id="O83-qt-6AR"/>
+                                            <segue destination="zBh-x2-XRa" kind="unwind" identifier="angry" unwindAction="rateRestaurantWithSegue:" id="a4X-EW-tck"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -740,11 +740,11 @@
                     <connections>
                         <outlet property="backgroundImageView" destination="yC5-a6-lJy" id="BeG-Fv-Kb0"/>
                         <outlet property="closeButton" destination="DEd-qz-TdM" id="Jlk-Ff-JBh"/>
-                        <outletCollection property="rateButtons" destination="Gtc-iA-KEb" collectionClass="NSMutableArray" id="nNo-Sr-i8W"/>
-                        <outletCollection property="rateButtons" destination="RXu-si-0GR" collectionClass="NSMutableArray" id="t4I-Jt-Q4b"/>
-                        <outletCollection property="rateButtons" destination="zTV-2g-xks" collectionClass="NSMutableArray" id="x3C-Cv-T1s"/>
-                        <outletCollection property="rateButtons" destination="qiO-mn-Y2H" collectionClass="NSMutableArray" id="Ojl-bc-LhM"/>
-                        <outletCollection property="rateButtons" destination="yJE-nh-BkF" collectionClass="NSMutableArray" id="ppF-gY-0IS"/>
+                        <outletCollection property="rateButtons" destination="Gtc-iA-KEb" collectionClass="NSMutableArray" id="Gy4-2n-o9d"/>
+                        <outletCollection property="rateButtons" destination="RXu-si-0GR" collectionClass="NSMutableArray" id="UYz-mV-AJb"/>
+                        <outletCollection property="rateButtons" destination="zTV-2g-xks" collectionClass="NSMutableArray" id="DkB-aJ-aSa"/>
+                        <outletCollection property="rateButtons" destination="qiO-mn-Y2H" collectionClass="NSMutableArray" id="WRd-Uh-IsK"/>
+                        <outletCollection property="rateButtons" destination="yJE-nh-BkF" collectionClass="NSMutableArray" id="Hof-vl-I6k"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lGO-6J-5OR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

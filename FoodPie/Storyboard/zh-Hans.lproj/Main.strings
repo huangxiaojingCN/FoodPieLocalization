@@ -64,17 +64,14 @@
 /* Class = "UIButton"; normalTitle = "Rate it"; ObjectID = "o3U-cd-llP"; */
 "o3U-cd-llP.normalTitle" = "评价";
 
-/* Class = "UIButton"; normalTitle = "HAPPY"; ObjectID = "qiO-mn-Y2H"; */
-"qiO-mn-Y2H.normalTitle" = "不错";
+/* Class = "UIButton"; normalTitle = "SAD"; ObjectID = "qiO-mn-Y2H"; */
+"qiO-mn-Y2H.normalTitle" = "较差";
 
 /* Class = "UINavigationItem"; title = "New Restaurant"; ObjectID = "qyY-Xm-Xbz"; */
 "qyY-Xm-Xbz.title" = "新建餐厅";
 
 /* Class = "UIButton"; normalTitle = "COOL"; ObjectID = "RXu-si-0GR"; */
 "RXu-si-0GR.normalTitle" = "很好";
-
-/* Class = "UITextView"; text = "A great restaurant to try out"; ObjectID = "sH3-Db-kHA"; */
-"sH3-Db-kHA.text" = "这家餐厅不错，值得推荐";
 
 /* Class = "UILabel"; text = "ADDRESS"; ObjectID = "sv2-Fb-aTQ"; */
 "sv2-Fb-aTQ.text" = "地址";
@@ -91,12 +88,12 @@
 /* Class = "UINavigationItem"; title = "FoodPie"; ObjectID = "x62-Gf-NGS"; */
 "x62-Gf-NGS.title" = "美食集";
 
-/* Class = "UIButton"; normalTitle = "SAD"; ObjectID = "yJE-nh-BkF"; */
-"yJE-nh-BkF.normalTitle" = "较差";
+/* Class = "UIButton"; normalTitle = "ANGRY"; ObjectID = "yJE-nh-BkF"; */
+"yJE-nh-BkF.normalTitle" = "差评";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "yyM-Un-uR1"; */
 "yyM-Un-uR1.text" = "Label";
 
-/* Class = "UIButton"; normalTitle = "ANGRY"; ObjectID = "zTV-2g-xks"; */
-"zTV-2g-xks.normalTitle" = "差评";
+/* Class = "UIButton"; normalTitle = "HAPPY"; ObjectID = "zTV-2g-xks"; */
+"zTV-2g-xks.normalTitle" = "还不错";
 
